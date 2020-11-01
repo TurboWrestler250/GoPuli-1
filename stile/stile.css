@@ -1,0 +1,51 @@
+body{
+  margin: -1px;
+
+}
+
+.elemContainer{
+  text-align: center;
+}
+
+#page{
+
+}
+
+.navButton{
+                      /* Position */
+
+                      /* Stile */
+}
+
+nav{
+  border-top: 3px solid #1C9731;
+  border-bottom: 3px solid #1C9731;
+  background-color: #9FFFAF;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#mapContainer{
+  text-align: center;
+}
+
+.footerPage{
+  height: 30vh;
+  width: 100vw;
+  position: fixed;
+  bottom: 0vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#content{
+                      /* Position */
+  margin-left: 10vw;
+  margin-right: 10vw;
+  height:
+
+                      /* Stile */
+  background-color: rgba(73, 242, 101, 0.3);
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
