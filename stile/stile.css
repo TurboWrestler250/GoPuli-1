@@ -1,15 +1,54 @@
 body{
   margin: -1px;
+  font-family: Verdana, Helvetica, sans-serif;
+}
 
+#navBar{
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 1vw;
+  top: 0;
+}
+
+header{
+  align-content: center;
+}
+
+#elemContainer{
+  display: block;
+  margin: auto;
+  padding: 25vh;
 }
 
 nav{
+  background-color: rgba(0, 0, 0, 0.8);
+  /* border: 3px solid black; */
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 1vw;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
 
-.footerPage{
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.5);
+.navButton{
+  padding-left: 1vw;
+  text-decoration: none;
+  color: white;
+}
+
+#content{
+  color: black;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  text-align: center;
+}
+
+#footerPage{
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 40vh;
+  width: 100vw;
+  padding: 10vh;
 }
