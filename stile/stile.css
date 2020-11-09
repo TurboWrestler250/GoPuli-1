@@ -42,13 +42,24 @@ nav{
   color: black;
   padding-left: 10vw;
   padding-right: 10vw;
-  text-align: center;
+}
+
+.tRight{
+  text-align: right;
+  margin-right: 10vw;
+}
+.tLeft{
+  margin-left: 10vW;
+}
+
+.separator{
+  border-bottom: 2px solid lightgray;
 }
 
 #footerPage{
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.8);
-  height: 40vh;
+  /* height: 40vh; */
   width: 100vw;
   padding: 10vh;
 }
