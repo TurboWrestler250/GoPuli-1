@@ -8,6 +8,10 @@ body{
   display: block;
   margin: auto;
   padding: 25vh;
+  /* height: auto;
+  width: auto;
+  max-width: 100vw;
+  max-height: 100vh; */
 }
 
 .blackBar{
@@ -15,7 +19,8 @@ body{
   position: sticky;
   background-color: rgba(0, 0, 0, 0.8);
   width: 100vw;
-  padding: 2vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 #bar2{
   position: static;
@@ -39,12 +44,24 @@ body{
 .separator{
   margin-top: 5vh;
   border-bottom: 2px solid lightgray;
+  width: 60vw;
+  padding-top: 5vh;
+  display: block;
+  margin: auto;
 }
 
 #footerPage{
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.8);
   width: 100vw;
-  padding: 10vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   border: 3px solid red;
 }
+
+/* .imgDef{
+  height: auto;
+  width: auto;
+  max-width: 100vw;
+  max-height: 100vh;
+} */
