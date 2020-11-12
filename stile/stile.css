@@ -1,35 +1,24 @@
 body{
   margin: -1px;
   font-family: Verdana, Helvetica, sans-serif;
+  width: 100vw;
 }
 
-#navBar{
-  background-color: rgba(0, 0, 0, 0.8);
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  padding-left: 1vw;
-  top: 0;
-}
-
-header{
-  align-content: center;
-}
-
-#elemContainer{
+#headImg{
   display: block;
   margin: auto;
   padding: 25vh;
 }
 
-nav{
-  background-color: rgba(0, 0, 0, 0.8);
-  /* border: 3px solid black; */
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  padding-left: 1vw;
-  position: -webkit-sticky;
-  position: sticky;
+.blackBar{
   top: 0;
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  padding: 2vh;
+}
+#bar2{
+  position: static;
 }
 
 .navButton{
@@ -40,26 +29,22 @@ nav{
 
 #content{
   color: black;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  /* padding: 10vh; */
 }
 
-.tRight{
-  text-align: right;
-  margin-right: 10vw;
-}
-.tLeft{
-  margin-left: 10vW;
+.textContainer{
+  margin: 10vh;
 }
 
 .separator{
+  margin-top: 5vh;
   border-bottom: 2px solid lightgray;
 }
 
 #footerPage{
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.8);
-  /* height: 40vh; */
   width: 100vw;
-  padding: 10vh;
+  padding: 10vw;
+  border: 3px solid red;
 }

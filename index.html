@@ -7,8 +7,6 @@
 
         <!-- Scripts -->
     <script type="text/javascript" src="./script/script.js"></script>
-    <!-- <script type="text/javascript" src="./script/mapScript.js"></script> -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
         <!-- Others -->
     <meta charset="UTF-8" name="viewport" content="height=device-height, initial-scale=1.0"/>
@@ -21,37 +19,40 @@
 
   <body>
 
-    <div id="navBar">
-
-    </div>
+              <!-- Menù -->
+    <nav class="blackBar">
+      <a class="navButton" href="./index.html" >Home
+      <a class="navButton" href="./index2.html" >Global Map
+      <a class="navButton" href="./index3.html" >About us
+    </nav>
                           <!-- Header -->
     <header>
-      <img id="elemContainer" src="./risorse/goPulì.png" alt="goPulì">
+      <img id="headImg" src="./risorse/goPulì.png" alt="goPulì">
     </header>
 
-    <div class="page">
-                        <!-- Menù -->
-      <nav class="navBar">
-        <a class="navButton" href="" >Home
-        <a class="navButton" href="" >Global Map
-        <a class="navButton" href="" >About us
-      </nav>
+    <!-- <div class="page"> -->
+
+      <div class="blackBar" id="bar2"></div>
 
                         <!-- Content -->
       <section id="content">
-        <h2 class="tLeft">CHI SIAMO?</h2>
-        <p class="tLeft">Siamo il Clan Wanderlust del Gruppo Scout Gorizia 3. Il Clan è composto da ragazzi tra i 17 e i 21 anni, guidati da un paio di capi, che si incontra ogni settimana per svolgere diverse attività. Quella a cui dedichiamo più tempo durante l’anno è sicuramente il capitolo.</p>
-        <br>
-        <br>
-        <p class="separator"></p>
-        <h2 class="tRight">COS’È UN CAPITOLO?</h2>
-        <p class="tRight">Il capitolo è una parte fondamentale per il nostro percorso. È costituito da un tema principale, scelto e condiviso dal Clan, che viene sviluppato durante il corso di tutto l’anno e si compone di diverse fasi, che man mano affrontiamo. Dopo aver votato l’argomento dedichiamo la maggior parte delle attività alla parte più consistente. Cerchiamo informazioni, le condividiamo, organizziamo degli incontri con esperti del settore e puntiamo ad avere sempre il quadro completo, ascoltando ed imparando. Proviamo ad essere curiosi ed a trovare ulteriori notizie ed aggiornamenti sull’argomento. Ne discutiamo assieme, prestando attenzione a punti di vista più o meno contrastanti. L’ultima fase è sicuramente la più difficile. Si tratta di trovare un’idea concreta, realizzabile e magari innovativa per mettere in pratica ciò che durante questi incontri abbiamo appreso a beneficio degli altri. Si tratta, appunto, della concretizzazione del nostro capitolo.  </p>
-        <br>
-        <br>
-        <p class = "separator"></p>
-        <h2 class="tLeft">COSA ABBIAMO FATTO QUEST’ANNO?</h2>
 
-        <!-- <p id="mapContainer"><div id="map" style="height: 300px; width: 600px;"></div></p> -->
+        <div class="textContainer">
+          <h2>CHI SIAMO?</h2>
+          <p>Siamo il Clan Wanderlust del Gruppo Scout Gorizia 3. Il Clan è composto da ragazzi tra i 17 e i 21 anni, guidati da un paio di capi, che si incontra ogni settimana per svolgere diverse attività. Quella a cui dedichiamo più tempo durante l’anno è sicuramente il capitolo.</p>
+          <p class="separator"></p>
+        </div>
+
+        <div class="textContainer">
+          <h2>COS’È UN CAPITOLO?</h2>
+          <p>Il capitolo è una parte fondamentale per il nostro percorso. È costituito da un tema principale, scelto e condiviso dal Clan, che viene sviluppato durante il corso di tutto l’anno e si compone di diverse fasi, che man mano affrontiamo. Dopo aver votato l’argomento dedichiamo la maggior parte delle attività alla parte più consistente. Cerchiamo informazioni, le condividiamo, organizziamo degli incontri con esperti del settore e puntiamo ad avere sempre il quadro completo, ascoltando ed imparando. Proviamo ad essere curiosi ed a trovare ulteriori notizie ed aggiornamenti sull’argomento. Ne discutiamo assieme, prestando attenzione a punti di vista più o meno contrastanti. L’ultima fase è sicuramente la più difficile. Si tratta di trovare un’idea concreta, realizzabile e magari innovativa per mettere in pratica ciò che durante questi incontri abbiamo appreso a beneficio degli altri. Si tratta, appunto, della concretizzazione del nostro capitolo.</p>
+          <p class="separator"></p>
+        </div>
+
+        <div class="textContainer">
+          <h2>COSA ABBIAMO FATTO QUEST’ANNO?</h2>
+          <p class="separator"></p>
+        </div>
 
       </section>
     </div>
@@ -62,19 +63,5 @@
       <p>email: rsgorizia3@gmail.com</p>
       <img src="risorse/goPulìT.png">
     </footer>
-
-
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgCFazcLO9JGJn11KOFp5FNA76pJQLIj4&callback=initMap" defer></script>
-    <script type="text/javascript">
-      // let map;
-
-      function initMap() {
-        var map = new google.maps.Map(document.getElementById("map"), {
-        center: { lat: 45.9470174, lng: 13.5745955 },
-        zoom: 13,
-        });
-      }
-    </script>
   </body>
 </html>
-<!-- &libraries=&v=weekly -->

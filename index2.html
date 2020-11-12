@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+        <!-- Stile -->
+    <link rel="stylesheet" href="./stile/stile.css">
+
+        <!-- Scripts -->
+    <script type="text/javascript" src="./script/script.js"></script>
+    <!-- <script type="text/javascript" src="./script/mapScript.js"></script> -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+        <!-- Others -->
+    <meta charset="UTF-8" name="viewport" content="height=device-height, initial-scale=1.0"/>
+    <meta charset="UTF-8" name="viewport" content="width = device - width, initial-scale = 1.0">
+    <meta charset="UTF-8" name="autor" content="Clan Wanderlust GO3"/>
+	  <meta charset="UTF-8" name="description" content="Organizzazione di eventi per pulire la città di Gorizia e pubblicazione delle foto riguardanti i vari eventi"/>
+	  <meta charset="UTF-8" name="keywords" content="Plastica, Inquinamento, Legambiente, FridayForFuture"/>
+    <title>GoPulì</title>
+  </head>
+
+  <body>
+
+              <!-- Menù -->
+    <nav class="blackBar">
+      <a class="navButton" href="./index.html" >Home
+      <a class="navButton" href="./index2.html" >Global Map
+      <a class="navButton" href="./index3.html" >About us
+    </nav>
+                          <!-- Header -->
+    <header>
+      <img id="headImg" src="./risorse/goPulì.png" alt="goPulì">
+    </header>
+
+    <!-- <div class="page"> -->
+
+      <div id="blackBar" style="border: 3px solid blue;"></div>
+
+                        <!-- Content -->
+      <section id="content">
+
+        <p id="mapContainer"><div id="map" style="height: 300px; width: 600px;"></div></p>
+
+      </section>
+    </div>
+
+                          <!-- Footer -->
+    <footer id="footerPage">
+      <p>Info:</p>
+      <p>email: rsgorizia3@gmail.com</p>
+      <img src="risorse/goPulìT.png">
+    </footer>
+
+
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgCFazcLO9JGJn11KOFp5FNA76pJQLIj4&callback=initMap" defer></script>
+    <script type="text/javascript">
+      // let map;
+
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 45.9470174, lng: 13.5745955 },
+        zoom: 13,
+        });
+      }
+    </script>
+  </body>
+</html>
+<!-- &libraries=&v=weekly -->
