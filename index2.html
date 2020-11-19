@@ -24,23 +24,29 @@
               <!-- Menù -->
     <nav class="blackBar">
       <a class="navButton" href="./index.html" >Home
-      <a class="navButton" href="./index2.html" >Global Map
-      <a class="navButton" href="./index3.html" >About us
+      <a class="navButton" href="./index2.html" >Mappa
+      <a class="navButton" href="./index3.html" >Info
     </nav>
                           <!-- Header -->
-    <header>
+    <!-- <header>
       <img id="headImg" src="./risorse/goPulì.png" alt="goPulì">
-    </header>
+    </header> -->
 
     <!-- <div class="page"> -->
 
-      <div class="blackBar"></div>
+      <!-- <div class="blackBar"></div> -->
 
                         <!-- Content -->
-      <section id="content">
-        <iframe src="https://www.google.com/maps/d/u/3/embed?mid=10Uwuy-2aaWxNgZXrmIY_VbkzI3ceapQ0" width="640" height="480"></iframe>
-        <!-- <p id="mapContainer"><div id="map" style="height: 300px; width: 600px;"></div></p> -->
-
+      <section class="content">
+        <h1 style="text-align: center;">Mappa del territorio di Gorizia</h1>
+        <p class="separator"></p>
+        <p id="map"><iframe  src="https://www.google.com/maps/d/u/3/embed?mid=10Uwuy-2aaWxNgZXrmIY_VbkzI3ceapQ0" width="1200" height="700"></iframe></p>
+        <!-- <iframe id="map" src="https://www.google.com/maps/d/u/3/embed?mid=10Uwuy-2aaWxNgZXrmIY_VbkzI3ceapQ0" width="640" height="480"></iframe> -->
+        <p class="separator"></p>
+        <p class="textContainer">Questa è la mappa del territorio di Gorizia. Le varie zone di inquinamento sono segnate nella mappa.</p>
+        <ul class="textContainer">
+          <li>Ingombrante:<span style="color: brown;">Marrone</span></li>
+        </ul>
       </section>
     </div>
 
@@ -51,18 +57,5 @@
       <img src="risorse/goPulìT.png">
     </footer>
 
-
-    <!-- <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgCFazcLO9JGJn11KOFp5FNA76pJQLIj4&callback=initMap" defer></script>
-    <script type="text/javascript">
-      // let map;
-
-      function initMap() {
-        var map = new google.maps.Map(document.getElementById("map"), {
-        center: { lat: 45.9470174, lng: 13.5745955 },
-        zoom: 13,
-        });
-      }
-    </script> -->
   </body>
 </html>
-<!-- &libraries=&v=weekly -->
